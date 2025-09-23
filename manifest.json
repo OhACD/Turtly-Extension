@@ -1,0 +1,17 @@
+{
+    "name": "Turtly Extension",
+    "description": "An extension that adds a simple Turtle companion that studies with you and helps you highlight important text.",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "permissions": ["activeTab", "scripting"]
+}
