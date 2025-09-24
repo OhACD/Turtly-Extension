@@ -28,7 +28,8 @@ It’s designed to learn by your side — not as a cheat code, but as a companio
 - Cleaner project structure
 - Cleaner README file
 - Added the idle sprite for the turtle (animations are still WIP)
-- Turtle sprite now appears at the end of the paragraph (WIP)
+- Turtle sprite now appears at the end of the paragraph and defaults to the lower
+  right corner when there is not enough space
 
 ## TODO
 **v0.0.2**
