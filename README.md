@@ -8,9 +8,12 @@ Turtly Extension:
         The project started as a Hackathon project, then my ADHD kicked in and now i'm working on a
          companion that could acompany me on my late night studing sessions.
 
+         ![Turtly Showcase](assets/turtly-showcase.png)
+
     Scope:
         A turtle companion that pops out dynamically while you are reading and studies alongside you, it
-        can highlight what it sees as important as it is reading it and you can click it to finalize or remove the highlight. It will also have features like being able to summarize the paragraph it
+        can highlight what it sees as important as it is reading it and you can click it to finalize or remove the highlight.
+        It will also have features like being able to summarize the paragraph it
         read and basically give you quick notes - it is designed to learn by your side not to be a
         cheatcode it's just a simple companion that handles the tedious or low effort stuff.
 
@@ -41,5 +44,3 @@ Turtly Extension:
         apparent)
         - Make the highlights persistant through reloads
         - Clean up and Polishing
-
-
