@@ -14,16 +14,16 @@ let scrollTimeoutId = null;
 
 // Loads and keep count of the paragraphs on the current webpage
 const paragraphs = document.querySelectorAll('p');
-console.log("Found", paragraphs.length, "paragraphs on this page.(content.js)");
+console.log("Found", paragraphs.length, "paragraphs on this page.");
 
 // Detects when the user scrolls the page
-window.addEventListener('scroll', onScroll);
+window.addEventListener("scroll", onScroll);
 
 function onScroll() {
     if (scrollTimeoutId !== null) {
         clearTimeout(scrollTimeoutId);
     }
-    scrollTimeoutId = setTimeout(checkFocusedParagraph, 200); // 100ms debounce
+    scrollTimeoutId = setTimeout(checkFocusedParagraph, 300); // debounce
 }
 
 function checkFocusedParagraph() {
@@ -53,7 +53,7 @@ function checkFocusedParagraph() {
         // Also will add some animation to make it appear smoothly
         turtle.style.top = (currentRect.bottom + window.scrollY) + "px";
         turtle.style.left = (currentRect.right + window.scrollX - 64) + "px";
-        console.log("Turtle Appeared at:", closestIndex);
+        console.log("Turtle Appeared at paragraph:", closestIndex);
     }
 }
 
