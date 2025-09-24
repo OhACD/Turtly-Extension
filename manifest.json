@@ -10,7 +10,13 @@
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "js": ["content/content.js"]
+            "js": [
+                "content/ParagraphTracker.js",
+                "content/PositionCalculator.js",
+                "content/TurtleManager.js",
+                "content/ScrollManager.js",
+                "content/ContentManager.js"
+            ]
         }
     ],
     "web_accessible_resources": [
