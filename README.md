@@ -7,8 +7,7 @@ Turtly Extension:
         highlighting whatever you're reading so you can focus on studing.
         The project started as a Hackathon project, then my ADHD kicked in and now i'm working on a
          companion that could acompany me on my late night studing sessions.
-
-         ![Turtly Showcase](assets/turtly-showcase.png)
+![Turtly Showcase](assets/turtly-showcase.png)
 
     Scope:
         A turtle companion that pops out dynamically while you are reading and studies alongside you, it
