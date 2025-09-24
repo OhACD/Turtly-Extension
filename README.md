@@ -9,10 +9,13 @@ Turtly Extension:
          companion that could acompany me on my late night studing sessions.
 
     Scope:
-        A turtle companion that pops out dynamically while you are reading and studies alongside you, it can highlight what it sees as important as it is reading it and you can click it to finalize or remove the highlight. It will also have features like being able to summarize the paragraph it read and basically give you quick notes - it is designed to learn by your side not to be a cheatcode it's just a simple companion that handles the tedious or low effort stuff.
+        A turtle companion that pops out dynamically while you are reading and studies alongside you, it
+        can highlight what it sees as important as it is reading it and you can click it to finalize or remove the highlight. It will also have features like being able to summarize the paragraph it
+        read and basically give you quick notes - it is designed to learn by your side not to be a
+        cheatcode it's just a simple companion that handles the tedious or low effort stuff.
 
     DONE:
-        (0.0.1)
+        (v0.0.1)
         - Basic Extension
         - Loads and keeps track of the number of paragraphs in a website
         - Keeps track of the current focused paragraph
@@ -20,12 +23,23 @@ Turtly Extension:
           upcoming features
         - Early repository setup
 
-    TODO:
         (v0.0.2)
         - Cleaner Project structure
-        - Implement the sprites for the turtle
+        - Added the Idle Spirte for the turtle (Animations are still WIP)
+        - turtle sprite now appear at the end of the paragraph (WIP)
+
+    TODO:
+        (v0.0.2)
+        - Implement the sprites for the turtle (idle (Main layer done), dig down (WIP) and dig up (WIP))
         - Add the icons for the extension
         - Implement the popup, idle and dig down animations
         - Early setup of the highlight system
+
+        (v0.0.3)
+        - The turtle highlight passages as it's reading (Highlights are faint)
+        - Implement the highlight locking after the user clicks the turtle (Highlights become more
+        apparent)
+        - Make the highlights persistant through reloads
+        - Clean up and Polishing
 
 

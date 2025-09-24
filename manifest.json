@@ -13,5 +13,11 @@
             "js": ["content/content.js"]
         }
     ],
+    "web_accessible_resources": [
+        {
+            "resources": ["assets/turtle/turtle-idle/turtle-idle.png"],
+            "matches": ["<all_urls>"]
+        }
+    ],
     "permissions": ["activeTab", "scripting"]
 }
