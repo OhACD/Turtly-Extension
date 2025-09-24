@@ -1,26 +1,44 @@
-Turtly Extension
-    Discription:
-        A Simple Turtle Companion to accompany you while studying. It pops in and studies with you as you study articles and it can give you it's thoughts on the important information through highlights that if you like can persist across sessions.
-        Aimed to be a friend that is by your side struggling with you and it will take the burden of highlighting whatever you're reading so you can focus on studing.
-        The project started as a Hackathon project, then my ADHD kicked in and now i'm working on a companion that could acompany me on my late night studing sessions.
+# Turtly Extension
 
-    Scope:
-        A turtle companion that pops out dynamically while you are reading and studies alongside you, it can highlight what it sees as important as it is reading it and you can click it to finalize or remove the highlight. It will also have features like being able to summarize the paragraph it read and basically give you quick notes - it is designed to learn by your side not to be a cheatcode it's just a simple companion that handles the tedious or low effort stuff.
+## Description
+A simple turtle companion to study with you. It highlights important information,
+and those highlights can persist across sessions if you choose.
+Turtly is meant to be a supportive friend, handling the tedious work of highlighting
+so you can focus on learning.
+It began as a Hackathon project and has grown into a companion for my late-night study sessions.
 
-    DONE:
-        (0.0.1)
-        - Basic Extension
-        - Loads and keeps track of the number of paragraphs in a website
-        - Keeps track of the current focused paragraph
-        - Early Debugging and setting up the environment for the
-          upcoming features
-        - Early repository setup
+![Turtly Showcase](assets/turtly-showcase.png)
 
-    TODO:
-        (v0.0.2)
-        - Cleaner Project structure
-        - Implement the sprites for the turtle
-        - Add the icons for the extension
-        - Implement the popup, idle and dig down animations
-        - Early setup of the highlight system
+## Scope
+A turtle companion that pops out while you read and studies alongside you.
+It highlights what it finds important, and you can finalize or remove those highlights with a click.
+Future features include paragraph summaries and quick notes.
+It’s designed to learn by your side — not as a cheat code, but as a companion to handle the tedious parts of studying.
 
+## DONE
+**v0.0.1**
+- Basic Extension
+- Loads and keeps track of the number of paragraphs in a website
+- Keeps track of the current focused paragraph
+- Early debugging and setting up the environment for the
+  upcoming features
+- Early repository setup
+
+**v0.0.2**
+- Cleaner project structure
+- Cleaner README file
+- Added the idle sprite for the turtle (animations are still WIP)
+- Turtle sprite now appears at the end of the paragraph (WIP)
+
+## TODO
+**v0.0.2**
+- Implement the sprites for the turtle (idle (main sprite done), dig down (WIP), and dig up (WIP))
+- Add the icons for the extension
+- Implement the popup, idle, and dig down animations
+- Early setup of the highlight system
+
+**v0.0.3**
+- The turtle highlights passages as it's reading (highlights are faint)
+- Implement the highlight locking after the user clicks the turtle (highlights become more apparent)
+- Make the highlights persistent through reloads
+- Clean up and polishing
